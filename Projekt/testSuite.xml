@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Formula 1 Website Automation Suite">
+    <test name="Open and check website test">
+        <classes>
+            <class name="OpenAndCheckWebsiteTest"/>
+        </classes>
+    </test>
+    <test name="Login with invalid credentials test">
+        <classes>
+            <class name="LoginTest"/>
+        </classes>
+    </test>
+    <test name="Display mode change (Dark to Light) test">
+        <classes>
+            <class name="DisplayModeTest"/>
+        </classes>
+    </test>
+    <test name="F1 TV page load test">
+        <classes>
+            <class name="F1TVTest"/>
+        </classes>
+    </test>
+    <test name="Filter race results by year test">
+        <classes>
+            <class name="FilterResultsTest"/>
+        </classes>
+    </test>
+</suite>
