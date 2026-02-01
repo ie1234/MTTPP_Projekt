@@ -18,6 +18,9 @@ Projekt je organiziran pomoću Page Object Modela dizajna, odnosno projekt je po
 4. **Filter race results by year test** - test provjerava odlazak na rezultate utrka ("Results" stranica) i u dropdown izborniku odabire 2021. godinu te provjerava je li se URL ispravno osvježio, tj. jesu li prikazani rezultati iz odabrane godine.
 5. **Display mode change test** - test kojim se odlazi (scrolla) na dno stranice, odnosno dok se ne pojavi "Display mode" gumb te se mijenja tema prvo u Dark, pa zatim u Light. 
 
-## Alati
+### Alati
 * **Preglednik**: Google Chrome.
 * **Driver**: Korišten je WebDriverManager pa nije potrebno ručno skidati driver.
+
+### Pokretanje testova
+* Unutar IntelliJ IDEA - desni klik na datoteku testSuite.xml u korjenu projekta i odabir opcije Run
